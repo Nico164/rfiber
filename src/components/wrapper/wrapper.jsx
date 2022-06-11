@@ -18,7 +18,7 @@ import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import HeroApp from '../hero/hero';
 import { Link, Outlet } from 'react-router-dom';
 
-const Links = ['Home', 'Projects', 'Features', 'Pricing', 'Updates', 'Quran'];
+const Links = ['Home', 'Projects', 'Features', 'Pricing', 'Updates', 'Quran', 'Builder'];
 
 const NavLink = ({ children }) => (
   <Link

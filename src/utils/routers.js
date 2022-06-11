@@ -1,4 +1,5 @@
 import Wrapper from "../components/wrapper/wrapper";
+import { BuilderPage } from "../pages/Builder/builder";
 import FeaturePage from "../pages/Features/features";
 import LandingPage from "../pages/landing/Landing";
 import NotFoundPage from "../pages/NotFound/NotFound";
@@ -20,6 +21,7 @@ export const routes = [{
         { path: "updates", element: <UpdatePage/>},
         { path: "quran", element: <QuranPage/>},
         { path: "quran/:ayah", element: <CardAlQuranDetail/>},
+        { path: "builder", element: <BuilderPage/>},
 
 
         { path: "*", element: <NotFoundPage/>}
